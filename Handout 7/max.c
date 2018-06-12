@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int max(int num1, int num2);
+void max(int num1, int num2);
 
 int main(void){
 	//variable declaration
@@ -19,7 +19,7 @@ int main(void){
 }
 
 //Function to find max num
-int max(int num1, int num2){
+void max(int num1, int num2){
 	if(num1 > num2){
 		printf("Maximum num is %d \n",num1);
 	}else{
